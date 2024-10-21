@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tarunsir_task3/home.dart';
+import 'package:tarunsir_task3/screen_21.dart';
+import 'package:tarunsir_task3/screen_23.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  DashboardScreen(),
+      home:  OTPVerificationScreen(),
     );
   }
 }
